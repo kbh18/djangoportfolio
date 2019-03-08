@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block contents %}
+<body>
+<img src="{% static 'me.jpg'%}" width=250 alt="내사진" style=" margin:50 0 0 90 ">
+    <div class="background" style="float:right; height:300; width:900; border-style:solid; margin: 50 150 0 0">
+        <div class="good" style="margin:50 0 0 50">
+            <h1>어서 오세요 HONEY의 포포 입니다.</h1>
+            <h2>이름 : 김병헌</h2>
+            <h2>장래희망 : 카페 & 애어비앤비 사장</h2>
+        </div>
+        {% comment %} <div class="container" style="margin-top:60px">
+            <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Honey 의 포포입니다~</h1>
+                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            </div>
+            </div>
+        </div> {% endcomment %}
+    </div> 
+
+</body>
+
+{% endblock %}
